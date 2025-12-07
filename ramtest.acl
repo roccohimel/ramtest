@@ -1,0 +1,10 @@
+init:
+	stf();
+	fso();
+
+test:
+	load(1024);
+	nln();
+	
+	fso();
+	ret(0);
